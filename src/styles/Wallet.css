@@ -1,0 +1,7 @@
+table thead th {
+  font-weight: bold;
+}
+
+table tbody td {
+  font-weight: normal;
+}

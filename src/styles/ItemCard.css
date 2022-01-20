@@ -1,0 +1,15 @@
+.item-card .card {
+  border: 0;
+  margin-bottom: 20px;
+  transition: all 0.2s ease-in-out;
+  padding: 3px;
+}
+
+.item-card .card img {
+  border-radius: 4px;
+}
+
+.item-card .card:hover {
+  box-shadow: 0 8px 24px 0 rgba(0,0,0,.12);
+  transform: translateY(-3px);
+}

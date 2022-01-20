@@ -1,0 +1,35 @@
+.hero-sb {
+  border-radius: 8px;
+  background: #ffffff80;
+  margin: 30px;
+  padding: 10px;
+  backdrop-filter: blur(2px);
+}
+
+.hero-filters .filter {
+  background: transparent;
+  border-radius: 2em;
+  border: 0;
+  padding: 5px 15px;
+  margin: 0.5em;
+  color: #000;
+  font-size: 0.8em;
+  font-weight: 400;
+  white-space: nowrap;
+  transition: all 0.2s ease-in-out;
+}
+
+.hero-filters .filter:hover {
+  background: #e00000;
+  color: #fff;
+}
+
+.hero-filters .filter.active {
+  background: #e00000;
+  color: #fff;
+}
+
+.search-box .location {
+  width: 40%;
+  margin-right: 10px;
+}

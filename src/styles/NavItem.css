@@ -1,0 +1,4 @@
+.nitem small {
+  display: block;
+  white-space: nowrap;
+}

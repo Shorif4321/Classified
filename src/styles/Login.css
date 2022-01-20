@@ -1,0 +1,78 @@
+.box {
+  margin: 40px 10px;
+}
+
+.Typewriter {
+  display: inline;
+}
+
+.Typewriter span {
+  font-weight: 500;
+}
+
+.login .login-button {
+  display: flex;
+  align-items: center;
+  margin: 10px 60px;
+  border: 1px solid #6264657c;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: normal;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.login .login-button:hover {
+  border: 1px solid rgb(182, 184, 185);
+  transform: translateY(-1px);
+}
+
+.login .login-button:active {
+  transform: translateY(3px);
+}
+
+.login .login-button svg {
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+.create-acc {
+  border: none;
+  background: transparent;
+  color: #e73d3d;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.signup {
+  margin: 10px 60px;
+}
+
+.signup input.form-control, .signin input.form-control {
+  border-radius: 6px;
+  padding: 12px;
+  border: 1px solid #b6b8b9;
+  transition: all 0.2s ease-in-out;
+  margin: 15px 0;
+}
+
+.signup input.form-control:focus, .signin input.form-control:focus {
+  border: 0.5px solid #00000080;
+}
+
+.signup .signup-btn, .signin .signin-btn {
+  width: 100%;
+  padding: 14px 0;
+  margin-top: 20px;
+}
+
+.signup .signup-btn:disabled,
+.signup .signup-btn[disabled] {
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.signin {
+  padding: 10px 50px;
+}

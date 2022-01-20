@@ -1,0 +1,18 @@
+.swiper-slide{
+  padding-bottom: 30px;
+}
+
+.swiper-slide .item {
+  text-align: center;
+  margin: 2px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px lightgrey;
+  padding: 15px 0;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.swiper-slide .item svg {
+  font-size: 60px;
+  margin-bottom: 10px;
+}

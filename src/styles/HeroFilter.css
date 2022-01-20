@@ -1,0 +1,22 @@
+.hero-filter .nav-tabs .nav-link {
+  background-color: #fff !important;
+  margin: 0 5px;
+  color: #000;
+  font-size: 15px;
+}
+
+.hero-filter .nav-tabs .nav-link.active {
+  background-color: #2B2D2E !important;
+  border: 1px solid #2B2D2E !important;
+  color: #fff;
+}
+
+.hero-filter .nav-tabs {
+  border-bottom: 1px solid #2B2D2E !important;
+}
+
+.hero-filter .tab-content .tab-pane {
+  background: #2B2D2E;
+  color: #fff;
+  padding: 20px;
+}

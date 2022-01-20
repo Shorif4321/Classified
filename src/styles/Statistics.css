@@ -1,0 +1,21 @@
+.statistics-box {
+  margin: 2px;
+  padding: 10px 5px;
+  box-shadow: 0 0 13px 0 rgba(0,0,0,.1);
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.statistics-box:hover {
+  box-shadow: 0 0 13px 0 rgba(0,0,0,.15);
+  transform: translateY(-3px);
+}
+
+.statistics-box small {
+  font-size: 12px;
+}
+
+.statistics-box h5 {
+  color: #303030;
+  margin-top: 5px;
+}

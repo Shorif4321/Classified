@@ -1,0 +1,58 @@
+.listing .sidebar {
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(211, 211, 211, 0.37);
+  padding: 0.625rem 0.375rem;
+}
+
+.listing .sidebar .form-floating {
+  margin: 5px 0 !important;
+}
+
+.listing .sidebar select, .listing .sidebar input {
+  font-size: 14px;
+}
+
+.listing .sidebar .save {
+  font-size: 13px;
+  padding: 1px 2px;
+}
+
+.listing .sidebar .save svg {
+  margin-top: -3px;
+}
+
+.listing .sidebar small {
+  font-size: 13px;
+}
+
+.form-check-input:checked {
+  background-color: #e00000 !important;
+  border-color: #e00000 !important;
+}
+
+.listing-details aside input, .listing-details aside textarea {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.verified-icons .icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 23.5px;
+  text-align: center;
+  margin: 3px 4px;
+  position: relative;
+}
+
+.tick {
+  font-size: 11px;
+  background-color: #0c0;
+  color: #fff;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}

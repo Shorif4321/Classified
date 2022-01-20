@@ -1,0 +1,19 @@
+footer {
+  background-color: #eee;
+  padding: 50px 0;
+}
+
+footer .heading {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+footer .item {
+  font-size: 14px;
+  color: #5c5c5c;
+  cursor: pointer;
+}
+
+footer .item:hover {
+  color: #E00000;
+}

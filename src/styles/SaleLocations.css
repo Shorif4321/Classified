@@ -1,0 +1,16 @@
+.sale-locations {
+  border: 1px solid #ededed;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.sale-locations hr {
+  margin: 0 -20px;
+  color: #a8a8a8;
+}
+
+.sale-locations .location {
+  margin: -1px 0;
+  text-transform: capitalize;
+  cursor: pointer;
+}

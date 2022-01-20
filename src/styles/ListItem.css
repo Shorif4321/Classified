@@ -1,0 +1,39 @@
+.listing .list .list-item {
+  background: #fafafa;
+  border-left: 3px solid #e00000;
+  padding: 20px 10px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  transition: all .1s ease-in-out;
+}
+
+.listing .list .list-item:hover {
+  background: #f7f6f6;
+  border-left: 3px solid #b00;
+}
+
+.listing .list .header h3 {
+  text-transform: capitalize;
+}
+
+.listing .list .list-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.listing .list .list-item .title {
+  margin-bottom: -15px;
+}
+
+.listing .list .list-item button.icon {
+  color: rgb(0, 0, 0);
+  background: #fff;
+  border-radius: 2em;
+  border: 0;
+  font-size: 20px;
+}
+
+.listing .list .list-item button.icon:hover {
+  color: #e22;
+}

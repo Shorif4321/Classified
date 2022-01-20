@@ -1,0 +1,74 @@
+.hero {
+  margin-bottom: 20px;
+  padding: 30px 50px;
+  background-image: url(../assets/images/hero.jpg);
+  background-size: cover;
+  border-radius: 8px;
+  background-position: center;
+}
+
+.hero h3 {
+  text-shadow: 0px 0px 4px #000000c5;
+}
+
+.motors-hero {
+  margin-bottom: 15px;
+  padding: 70px 200px;
+  background-image: url(../assets/images/motors-hero.jpg);
+}
+
+.property-hero {
+  background-image: url(../assets/images/property.jpg);
+  padding: 50px 30px;
+}
+
+.property-hero .toggle-buttons {
+  background-color: #2b2d2e;
+  border-radius: 2em;
+  padding: 3px;
+  margin: 20px 38%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.property-hero .toggle-buttons .toggle-button {
+  background-color: transparent;
+  border-radius: 2em;
+  color: #fff;
+  width: 48%;
+}
+
+.property-hero .toggle-buttons .toggle-button.active {
+  background-color: #fff;
+  color: #000;
+}
+
+.property-hero .toggle-buttons .toggle-button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.classified-hero {
+  margin-bottom: 15px;
+  padding: 70px 200px;
+  background-image: url(../assets/images/classified.jpg);
+}
+
+.jobs-hero {
+  margin-bottom: 15px;
+  padding: 70px 200px;
+  background-image: url(../assets/images/jobs-hero.jpg);
+}
+
+.community-hero {
+  margin-bottom: 15px;
+  padding: 70px 200px;
+  background-image: url(../assets/images/community-hero.jpg);
+}
+
+.mobiles-hero {
+  margin-bottom: 15px;
+  padding: 70px 200px;
+  background-image: url(../assets/images/mobiles-hero.jpg);
+  background-position: bottom;
+}

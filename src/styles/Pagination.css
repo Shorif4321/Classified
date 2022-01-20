@@ -1,0 +1,51 @@
+.pg .flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pg .flex-container > div {
+  padding-top: 10px;
+}
+
+.pg .paginate-ctn {
+  display: flex;
+}
+
+.pg .round-effect {
+  color: #dd4124;
+  cursor: pointer;
+  /*   border:1px solid red; */
+  font-size: 16px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 9px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  box-shadow: 0 0 10px #0000003a;
+  text-decoration: none;
+}
+
+.pg .round-effect:hover {
+  text-decoration: none;
+  background: #dd4124;
+  color: #fff;
+}
+.pg .round-effect:hover a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.pg .active {
+  background: #dd4124;
+  color: #fff;
+}
+
+.pg a:link {
+  text-decoration: none;
+  color: #dd4124;
+}
